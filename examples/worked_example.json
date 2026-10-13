@@ -1,0 +1,104 @@
+[
+  {
+    "case": "Case 1 \u2014 HIGH COI: recent co-author at same institution",
+    "editor": "Lamar Pierce",
+    "author": "Dennis Zhang",
+    "score": 0.982,
+    "flagged_at_050": true,
+    "reasons": [
+      "Direct co-authorship within 2 years (5 shared paper(s), most recent 2024)",
+      "Currently at same institution: Washington University in St. Louis",
+      "Shared editorial role: Organization Science"
+    ],
+    "notification": "This person has a conflict-of-interest score with one or more of the authors of 0.98, which exceeds the journal's recommended threshold of 0.50. The score of 0.98 is based on: Direct co-authorship within 2 years (5 shared paper(s), most recent 2024); Currently at same institution: Washington University in St. Louis; Shared editorial role: Organization Science.",
+    "edges": [
+      {
+        "type": "direct_coauthorship",
+        "weight": 0.9,
+        "details": "Direct co-authorship within 2 years (5 shared paper(s), most recent 2024)"
+      },
+      {
+        "type": "current_shared_institution",
+        "weight": 0.7,
+        "details": "Currently at same institution: Washington University in St. Louis"
+      },
+      {
+        "type": "editorial_board",
+        "weight": 0.4,
+        "details": "Shared editorial role: Organization Science"
+      }
+    ]
+  },
+  {
+    "case": "Case 2 \u2014 MEDIUM COI: older co-author, now at different institution",
+    "editor": "Lamar Pierce",
+    "author": "Evan Rawley",
+    "score": 0.675,
+    "flagged_at_050": true,
+    "reasons": [
+      "Direct co-authorship within 6-10 years (2 shared paper(s), most recent 2020)",
+      "Formerly at same institution: Washington University in St. Louis"
+    ],
+    "notification": "This person has a conflict-of-interest score with one or more of the authors of 0.68, which exceeds the journal's recommended threshold of 0.50. The score of 0.68 is based on: Direct co-authorship within 6-10 years (2 shared paper(s), most recent 2020); Formerly at same institution: Washington University in St. Louis.",
+    "edges": [
+      {
+        "type": "direct_coauthorship",
+        "weight": 0.5,
+        "details": "Direct co-authorship within 6-10 years (2 shared paper(s), most recent 2020)"
+      },
+      {
+        "type": "former_shared_institution",
+        "weight": 0.35,
+        "details": "Formerly at same institution: Washington University in St. Louis"
+      }
+    ]
+  },
+  {
+    "case": "Case 3 \u2014 LOW COI: 2nd-degree connection only (shared collaborator)",
+    "editor": "Lamar Pierce",
+    "author": "Jane Researcher",
+    "score": 0.2,
+    "flagged_at_050": false,
+    "reasons": [
+      "Share 1 common collaborator(s)"
+    ],
+    "notification": "No conflict of interest detected (score: 0.20). This person may proceed as editor or reviewer.",
+    "edges": [
+      {
+        "type": "shared_coauthor",
+        "weight": 0.2,
+        "details": "Share 1 common collaborator(s)"
+      }
+    ]
+  },
+  {
+    "case": "Case 4 \u2014 HIGH COI: advisor\u2013advisee + co-authorship",
+    "editor": "Lamar Pierce",
+    "author": "Alex Former-Student",
+    "score": 0.9756,
+    "flagged_at_050": true,
+    "reasons": [
+      "Direct co-authorship within 3-5 years (2 shared paper(s), most recent 2021)",
+      "Advisor\u2013advisee relationship",
+      "Formerly at same institution: Washington University in St. Louis"
+    ],
+    "notification": "This person has a conflict-of-interest score with one or more of the authors of 0.98, which exceeds the journal's recommended threshold of 0.50. The score of 0.98 is based on: Direct co-authorship within 3-5 years (2 shared paper(s), most recent 2021); Advisor\u2013advisee relationship; Formerly at same institution: Washington University in St. Louis.",
+    "edges": [
+      {
+        "type": "direct_coauthorship",
+        "weight": 0.75,
+        "details": "Direct co-authorship within 3-5 years (2 shared paper(s), most recent 2021)"
+      },
+      {
+        "type": "advisor_advisee",
+        "weight": 0.85,
+        "details": "Advisor\u2013advisee relationship"
+      },
+      {
+        "type": "former_shared_institution",
+        "weight": 0.35,
+        "details": "Formerly at same institution: Washington University in St. Louis"
+      }
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "_comment": "Seed scholars for the daily network refresh agent. These profiles are fetched and updated nightly from OpenAlex even before any COI query has been made, ensuring the database stays current. Add any EIC or frequently reviewed scholar here.",
+  "scholars": [
+    "Lamar Pierce",
+    "Jason Snyder",
+    "Todd Zenger",
+    "Kristina McElheran",
+    "Evan Rawley",
+    "Dennis Zhang"
+  ]
+}

@@ -1,4 +1,4 @@
-# COI Weight Schema — v0.1
+# COI Weight Schema — v0.2
 
 ## Overview
 
@@ -26,19 +26,24 @@ This computes P(at least one conflict channel is active), prevents any single
 channel from dominating, and caps naturally at 1.0. It is consistent with
 related systems in the literature (Aleman-Meza et al., 2006; Wu et al., 2018).
 
-## Relationship types and base weights (v0.1)
+## Relationship types and base weights (v0.2)
+
+Tier boundaries for co-authorship recency align with ACM (2 yr), NSF (48 mo / 4 yr),
+and IACR (2 yr institutional window) published COI policies.
+The advisor–advisee relationship is treated as **permanent** per ACM, IACR, and NSF,
+which all classify it as a lifelong COI with no time limit.
 
 | Relationship type | Base weight | Notes |
 |---|---|---|
-| Co-authorship ≤ 2 years | **0.90** | Active collaboration |
-| Co-authorship 3–5 years | **0.75** | Recent collaboration |
-| Co-authorship 6–10 years | **0.50** | Historical collaboration |
-| Co-authorship > 10 years | **0.25** | Distant collaboration |
-| Current shared institution | **0.70** | Active colleagues |
-| Former shared institution | **0.35 − 0.05×yrs** | Decays 0.05/yr after departure; floored at 0 |
-| Advisor–advisee | **0.85** | Career-defining relationship |
-| Editorial board co-membership | **0.40** | Professional interdependence |
-| Shared collaborator (2nd-degree) | **0.20** | Indirect tie; no direct relationship |
+| Co-authorship 0–2 years | **0.90** | ACM 2-yr policy threshold |
+| Co-authorship 2–4 years | **0.70** | NSF 48-month policy threshold |
+| Co-authorship 4–6 years | **0.40** | Beyond any policy window; moderate decay |
+| Co-authorship > 6 years | **0.15** | Weak residual tie; design judgement |
+| Current shared institution | **0.85** | IACR/ACM/NSF: automatic COI |
+| Former shared institution | **0.35 − 0.175×yrs** | ~0 at 2 yrs (IACR window); floored at 0 |
+| Advisor–advisee | **0.95** | Permanent — IACR/ACM/NSF: lifetime COI; no decay |
+| Editorial board co-membership | **0.40** | COPE/ACM policy basis; no empirical anchor |
+| Shared collaborator (2nd-degree) | **0.20** | Aleman-Meza et al. (2006): low-to-medium boundary |
 
 ## Default alert threshold
 
@@ -51,11 +56,13 @@ specialist journals may raise it to avoid blocking the eligible reviewer pool.
 
 ## Calibration note
 
-These weights represent **v0.1 defaults** grounded in the theoretical
-literature and analogous systems (Aleman-Meza et al., 2006; Freeman, 1979;
-Wu et al., 2018 [PISTIS]; Harvey et al., 2024 [Prophy]). As stated in the
-manuscript, "the final calculation of the COI score is a work in progress
-that will undergo extensive recursive testing with external feedback."
+These weights represent **v0.2 defaults** calibrated against the published COI policies
+of ACM, IACR, and NSF — the three bodies that publish unusually detailed, explicit
+COI rules. Where those policies set time windows for particular relationship types,
+the weights are anchored to those windows. Where no policy guidance exists, the weights
+are stated as design choices. As stated in the manuscript, "the final calculation of
+the COI score is a work in progress that will undergo extensive recursive testing with
+external feedback."
 
 Future calibration will use:
 1. Known COI cases reported by adopting journals

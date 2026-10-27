@@ -181,24 +181,34 @@ class COIResult:
 
 
 # ---------------------------------------------------------------------------
-# Weight schema (v0.1)
+# Weight schema (v0.2)
 # See docs/weight_schema.md for full rationale and references.
+#
+# Changes from v0.1 → v0.2 (calibrated against ACM / IACR / NSF policy):
+#   - Co-author tier boundaries revised to 0-2 / 2-4 / 4-6 / >6 yrs
+#   - Co-author weights for tiers 2-4, 4-6, >6 reduced (0.70 / 0.40 / 0.15)
+#   - Advisor-advisee weight raised 0.85 → 0.95; time decay removed (permanent)
+#   - Current institution weight raised 0.70 → 0.85
+#   - Former institution decay rate raised 0.05 → 0.175 /yr (zeroes at ~2 yrs,
+#     matching IACR window; was zeroing at 7 yrs)
 # ---------------------------------------------------------------------------
 
 # Co-authorship: weight by recency (most recent shared paper)
+# Tier boundaries align with ACM (2 yr), NSF (4 yr / 48 mo), and beyond.
 # (max_age_years, weight, label)
 COAUTHOR_WEIGHTS = [
     (2,   0.90, "co-authorship within 2 years"),
-    (5,   0.75, "co-authorship within 3-5 years"),
-    (10,  0.50, "co-authorship within 6-10 years"),
-    (999, 0.25, "co-authorship more than 10 years ago"),
+    (4,   0.70, "co-authorship within 2-4 years"),
+    (6,   0.40, "co-authorship within 4-6 years"),
+    (999, 0.15, "co-authorship more than 6 years ago"),
 ]
 
-INSTITUTION_WEIGHT_CURRENT      = 0.70   # currently at same institution
+INSTITUTION_WEIGHT_CURRENT      = 0.85   # currently at same institution
 INSTITUTION_WEIGHT_FORMER_BASE  = 0.35   # formerly at same institution
-INSTITUTION_WEIGHT_FORMER_DECAY = 0.05   # per year since departure
+INSTITUTION_WEIGHT_FORMER_DECAY = 0.175  # per year since departure (~0 at 2 yrs)
 
-ADVISOR_ADVISEE_WEIGHT   = 0.85
+# Advisor-advisee: permanent COI per ACM / IACR / NSF — no time limit applied.
+ADVISOR_ADVISEE_WEIGHT   = 0.95
 EDITORIAL_BOARD_WEIGHT   = 0.40
 SHARED_COAUTHOR_WEIGHT   = 0.20   # 2nd-degree (shared collaborator)
 

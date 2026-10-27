@@ -1,0 +1,43 @@
+name: Daily Network Refresh
+
+# Runs every night at 02:00 UTC (midnight Melbourne time in summer).
+# Also runs whenever this workflow file is changed, and can be
+# triggered manually from the Actions tab on GitHub.
+on:
+  schedule:
+    - cron: "0 2 * * *"   # 02:00 UTC daily
+  push:
+    paths:
+      - ".github/workflows/refresh.yml"
+  workflow_dispatch:       # allows manual trigger from GitHub Actions tab
+
+jobs:
+  refresh:
+    name: Refresh COI network database
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write      # needed to commit the updated log back to the repo
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run network refresh agent
+        run: python src/refresh_network.py
+
+      - name: Commit updated cache and log
+        run: |
+          git config user.name  "COI Refresh Agent"
+          git config user.email "actions@github.com"
+          git add data/refresh_log.jsonl data/cache/ || true
+          git diff --cached --quiet || git commit -m "chore: daily network refresh $(date -u +%Y-%m-%d)"
+          git push

@@ -15,3 +15,13 @@
 {"run_id": "20261028T023312Z", "timestamp": "2026-10-28T02:33:17.293802+00:00", "scholar": "Evan Rawley", "status": "no_change", "changes": {}}
 {"run_id": "20261028T023312Z", "timestamp": "2026-10-28T02:33:17.821099+00:00", "scholar": "Liangbing Hu", "status": "no_change", "changes": {}}
 {"run_id": "20261028T023312Z", "timestamp": "2026-10-28T02:33:12.172346+00:00", "scholar": "__summary__", "status": "summary", "changes": {"total_checked": 9, "updated": 3, "no_change": 6, "fetch_failed": 0}}
+{"run_id": "20261029T023650Z", "timestamp": "2026-10-29T02:36:50.204738+00:00", "scholar": "Liangbing Hu", "status": "updated", "changes": {"new_coauthors": ["Lu Ma", "Yang He", "Dylan Jacob Kline", "Jun Biao Lu", "Yangyang Huang", "Yuheng Zheng", "Xiang Li"], "removed_coauthors": ["David T. Schoen", "Alia P. Schoen", "Sarah C. Heilshorn", "Yun Qiao", "Yang Liu"], "updated_coauthor_recency": [{"id": "https://openalex.org/A5055704852", "old_year": 2018, "new_year": 2019}]}}
+{"run_id": "20261029T023650Z", "timestamp": "2026-10-29T02:36:51.476526+00:00", "scholar": "Todd R. Zenger", "status": "no_change", "changes": {}}
+{"run_id": "20261029T023650Z", "timestamp": "2026-10-29T02:36:52.597097+00:00", "scholar": "Kristina McElheran", "status": "no_change", "changes": {}}
+{"run_id": "20261029T023650Z", "timestamp": "2026-10-29T02:36:53.009349+00:00", "scholar": "Lamar Pierce", "status": "no_change", "changes": {}}
+{"run_id": "20261029T023650Z", "timestamp": "2026-10-29T02:36:53.458501+00:00", "scholar": "Evan Rawley", "status": "no_change", "changes": {}}
+{"run_id": "20261029T023650Z", "timestamp": "2026-10-29T02:36:53.917714+00:00", "scholar": "Todd R. Zenger", "status": "updated", "changes": {"note": "first_fetch"}}
+{"run_id": "20261029T023650Z", "timestamp": "2026-10-29T02:36:54.461680+00:00", "scholar": "Jason S. Snyder", "status": "updated", "changes": {"note": "first_fetch"}}
+{"run_id": "20261029T023650Z", "timestamp": "2026-10-29T02:36:55.021808+00:00", "scholar": "Jason S. Snyder", "status": "no_change", "changes": {}}
+{"run_id": "20261029T023650Z", "timestamp": "2026-10-29T02:36:55.519427+00:00", "scholar": "Liangbing Hu", "status": "updated", "changes": {"note": "first_fetch"}}
+{"run_id": "20261029T023650Z", "timestamp": "2026-10-29T02:36:50.203258+00:00", "scholar": "__summary__", "status": "summary", "changes": {"total_checked": 9, "updated": 4, "no_change": 5, "fetch_failed": 0}}

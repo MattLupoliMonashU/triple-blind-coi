@@ -45,3 +45,13 @@
 {"run_id": "20261031T023525Z", "timestamp": "2026-10-31T02:35:31.580925+00:00", "scholar": "Evan Rawley", "status": "no_change", "changes": {}}
 {"run_id": "20261031T023525Z", "timestamp": "2026-10-31T02:35:32.370722+00:00", "scholar": "Kristina McElheran", "status": "no_change", "changes": {}}
 {"run_id": "20261031T023525Z", "timestamp": "2026-10-31T02:35:25.086469+00:00", "scholar": "__summary__", "status": "summary", "changes": {"total_checked": 9, "updated": 3, "no_change": 6, "fetch_failed": 0}}
+{"run_id": "20261101T023708Z", "timestamp": "2026-11-01T02:37:08.733370+00:00", "scholar": "Kristina McElheran", "status": "no_change", "changes": {}}
+{"run_id": "20261101T023708Z", "timestamp": "2026-11-01T02:37:09.467649+00:00", "scholar": "Liangbing Hu", "status": "updated", "changes": {"note": "first_fetch"}}
+{"run_id": "20261101T023708Z", "timestamp": "2026-11-01T02:37:10.533462+00:00", "scholar": "Evan Rawley", "status": "no_change", "changes": {}}
+{"run_id": "20261101T023708Z", "timestamp": "2026-11-01T02:37:11.578817+00:00", "scholar": "Todd R. Zenger", "status": "updated", "changes": {"updated_coauthor_recency": [{"id": "https://openalex.org/A5026756246", "old_year": 2023, "new_year": 2026}]}}
+{"run_id": "20261101T023708Z", "timestamp": "2026-11-01T02:37:12.430929+00:00", "scholar": "Todd R. Zenger", "status": "updated", "changes": {"note": "first_fetch"}}
+{"run_id": "20261101T023708Z", "timestamp": "2026-11-01T02:37:13.175763+00:00", "scholar": "Lamar Pierce", "status": "no_change", "changes": {}}
+{"run_id": "20261101T023708Z", "timestamp": "2026-11-01T02:37:13.788337+00:00", "scholar": "Jason S. Snyder", "status": "no_change", "changes": {}}
+{"run_id": "20261101T023708Z", "timestamp": "2026-11-01T02:37:14.419385+00:00", "scholar": "Jason S. Snyder", "status": "updated", "changes": {"note": "first_fetch"}}
+{"run_id": "20261101T023708Z", "timestamp": "2026-11-01T02:37:14.966432+00:00", "scholar": "Liangbing Hu", "status": "no_change", "changes": {}}
+{"run_id": "20261101T023708Z", "timestamp": "2026-11-01T02:37:08.731822+00:00", "scholar": "__summary__", "status": "summary", "changes": {"total_checked": 9, "updated": 4, "no_change": 5, "fetch_failed": 0}}

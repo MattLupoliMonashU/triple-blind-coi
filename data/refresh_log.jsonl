@@ -85,3 +85,13 @@
 {"run_id": "20261104T023800Z", "timestamp": "2026-11-04T02:38:04.936680+00:00", "scholar": "Liangbing Hu", "status": "updated", "changes": {"note": "first_fetch"}}
 {"run_id": "20261104T023800Z", "timestamp": "2026-11-04T02:38:05.931484+00:00", "scholar": "Lamar Pierce", "status": "no_change", "changes": {}}
 {"run_id": "20261104T023800Z", "timestamp": "2026-11-04T02:38:00.822432+00:00", "scholar": "__summary__", "status": "summary", "changes": {"total_checked": 9, "updated": 3, "no_change": 6, "fetch_failed": 0}}
+{"run_id": "20261105T024437Z", "timestamp": "2026-11-05T02:44:37.969137+00:00", "scholar": "Kristina McElheran", "status": "updated", "changes": {}}
+{"run_id": "20261105T024437Z", "timestamp": "2026-11-05T02:44:38.830149+00:00", "scholar": "Liangbing Hu", "status": "updated", "changes": {"note": "first_fetch"}}
+{"run_id": "20261105T024437Z", "timestamp": "2026-11-05T02:44:40.211069+00:00", "scholar": "Evan Rawley", "status": "updated", "changes": {"removed_coauthors": ["J P Rui de Figueiredo"]}}
+{"run_id": "20261105T024437Z", "timestamp": "2026-11-05T02:44:40.876421+00:00", "scholar": "Jason S. Snyder", "status": "updated", "changes": {}}
+{"run_id": "20261105T024437Z", "timestamp": "2026-11-05T02:44:41.697427+00:00", "scholar": "Todd R. Zenger", "status": "updated", "changes": {"note": "first_fetch"}}
+{"run_id": "20261105T024437Z", "timestamp": "2026-11-05T02:44:42.667409+00:00", "scholar": "Liangbing Hu", "status": "no_change", "changes": {}}
+{"run_id": "20261105T024437Z", "timestamp": "2026-11-05T02:44:43.916822+00:00", "scholar": "Todd R. Zenger", "status": "no_change", "changes": {}}
+{"run_id": "20261105T024437Z", "timestamp": "2026-11-05T02:44:44.799954+00:00", "scholar": "Jason S. Snyder", "status": "updated", "changes": {"note": "first_fetch"}}
+{"run_id": "20261105T024437Z", "timestamp": "2026-11-05T02:44:45.607456+00:00", "scholar": "Lamar Pierce", "status": "updated", "changes": {"removed_coauthors": ["Felix Arndt"]}}
+{"run_id": "20261105T024437Z", "timestamp": "2026-11-05T02:44:37.967628+00:00", "scholar": "__summary__", "status": "summary", "changes": {"total_checked": 9, "updated": 7, "no_change": 2, "fetch_failed": 0}}

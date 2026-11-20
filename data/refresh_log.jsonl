@@ -235,3 +235,13 @@
 {"run_id": "20261119T094313Z", "timestamp": "2026-11-19T09:43:20.302039+00:00", "scholar": "Todd R. Zenger", "status": "no_change", "changes": {}}
 {"run_id": "20261119T094313Z", "timestamp": "2026-11-19T09:43:21.024589+00:00", "scholar": "Dennis Zhang", "status": "no_change", "changes": {}}
 {"run_id": "20261119T094313Z", "timestamp": "2026-11-19T09:43:13.459283+00:00", "scholar": "__summary__", "status": "summary", "changes": {"total_checked": 9, "updated": 2, "no_change": 7, "fetch_failed": 0}}
+{"run_id": "20261120T093024Z", "timestamp": "2026-11-20T09:30:24.734760+00:00", "scholar": "Evan Rawley", "status": "no_change", "changes": {}}
+{"run_id": "20261120T093024Z", "timestamp": "2026-11-20T09:30:25.241659+00:00", "scholar": "Liangbing Hu", "status": "no_change", "changes": {}}
+{"run_id": "20261120T093024Z", "timestamp": "2026-11-20T09:30:26.138354+00:00", "scholar": "Dennis Zhang", "status": "updated", "changes": {"new_coauthors": ["Sikun Xu", "Raphael Thomadsen", "Heng Zhang"]}}
+{"run_id": "20261120T093024Z", "timestamp": "2026-11-20T09:30:26.527644+00:00", "scholar": "Jason S. Snyder", "status": "no_change", "changes": {}}
+{"run_id": "20261120T093024Z", "timestamp": "2026-11-20T09:30:27.019364+00:00", "scholar": "Todd R. Zenger", "status": "updated", "changes": {"note": "first_fetch"}}
+{"run_id": "20261120T093024Z", "timestamp": "2026-11-20T09:30:27.418735+00:00", "scholar": "Kristina McElheran", "status": "no_change", "changes": {}}
+{"run_id": "20261120T093024Z", "timestamp": "2026-11-20T09:30:27.742771+00:00", "scholar": "Lamar Pierce", "status": "no_change", "changes": {}}
+{"run_id": "20261120T093024Z", "timestamp": "2026-11-20T09:30:28.087327+00:00", "scholar": "Todd R. Zenger", "status": "no_change", "changes": {}}
+{"run_id": "20261120T093024Z", "timestamp": "2026-11-20T09:30:28.472806+00:00", "scholar": "Jason S. Snyder", "status": "updated", "changes": {"note": "first_fetch"}}
+{"run_id": "20261120T093024Z", "timestamp": "2026-11-20T09:30:24.732148+00:00", "scholar": "__summary__", "status": "summary", "changes": {"total_checked": 9, "updated": 3, "no_change": 6, "fetch_failed": 0}}

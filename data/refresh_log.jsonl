@@ -275,3 +275,13 @@
 {"run_id": "20261123T100611Z", "timestamp": "2026-11-23T10:06:18.946169+00:00", "scholar": "Lamar Pierce", "status": "no_change", "changes": {}}
 {"run_id": "20261123T100611Z", "timestamp": "2026-11-23T10:06:19.656986+00:00", "scholar": "Kristina McElheran", "status": "no_change", "changes": {}}
 {"run_id": "20261123T100611Z", "timestamp": "2026-11-23T10:06:11.992764+00:00", "scholar": "__summary__", "status": "summary", "changes": {"total_checked": 9, "updated": 2, "no_change": 7, "fetch_failed": 0}}
+{"run_id": "20261124T115332Z", "timestamp": "2026-11-24T11:53:32.842044+00:00", "scholar": "Dennis Zhang", "status": "no_change", "changes": {}}
+{"run_id": "20261124T115332Z", "timestamp": "2026-11-24T11:53:33.444621+00:00", "scholar": "Jason S. Snyder", "status": "updated", "changes": {"new_institutions": ["Baycrest Corporate Centre for Geriatric Care"], "removed_institutions": ["Baycrest Centre for Geriatric Care"]}}
+{"run_id": "20261124T115332Z", "timestamp": "2026-11-24T11:53:33.909115+00:00", "scholar": "Evan Rawley", "status": "no_change", "changes": {}}
+{"run_id": "20261124T115332Z", "timestamp": "2026-11-24T11:53:34.269513+00:00", "scholar": "Liangbing Hu", "status": "no_change", "changes": {}}
+{"run_id": "20261124T115332Z", "timestamp": "2026-11-24T11:53:35.083241+00:00", "scholar": "Todd R. Zenger", "status": "updated", "changes": {"note": "first_fetch"}}
+{"run_id": "20261124T115332Z", "timestamp": "2026-11-24T11:53:35.516980+00:00", "scholar": "Jason S. Snyder", "status": "updated", "changes": {"note": "first_fetch"}}
+{"run_id": "20261124T115332Z", "timestamp": "2026-11-24T11:53:35.926996+00:00", "scholar": "Kristina McElheran", "status": "no_change", "changes": {}}
+{"run_id": "20261124T115332Z", "timestamp": "2026-11-24T11:53:36.294501+00:00", "scholar": "Lamar Pierce", "status": "no_change", "changes": {}}
+{"run_id": "20261124T115332Z", "timestamp": "2026-11-24T11:53:36.670493+00:00", "scholar": "Todd R. Zenger", "status": "no_change", "changes": {}}
+{"run_id": "20261124T115332Z", "timestamp": "2026-11-24T11:53:32.840672+00:00", "scholar": "__summary__", "status": "summary", "changes": {"total_checked": 9, "updated": 3, "no_change": 6, "fetch_failed": 0}}

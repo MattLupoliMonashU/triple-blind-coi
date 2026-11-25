@@ -285,3 +285,13 @@
 {"run_id": "20261124T115332Z", "timestamp": "2026-11-24T11:53:36.294501+00:00", "scholar": "Lamar Pierce", "status": "no_change", "changes": {}}
 {"run_id": "20261124T115332Z", "timestamp": "2026-11-24T11:53:36.670493+00:00", "scholar": "Todd R. Zenger", "status": "no_change", "changes": {}}
 {"run_id": "20261124T115332Z", "timestamp": "2026-11-24T11:53:32.840672+00:00", "scholar": "__summary__", "status": "summary", "changes": {"total_checked": 9, "updated": 3, "no_change": 6, "fetch_failed": 0}}
+{"run_id": "20261125T104546Z", "timestamp": "2026-11-25T10:45:46.937135+00:00", "scholar": "Lamar Pierce", "status": "no_change", "changes": {}}
+{"run_id": "20261125T104546Z", "timestamp": "2026-11-25T10:45:48.103846+00:00", "scholar": "Dennis Zhang", "status": "no_change", "changes": {}}
+{"run_id": "20261125T104546Z", "timestamp": "2026-11-25T10:45:48.745525+00:00", "scholar": "Jason S. Snyder", "status": "no_change", "changes": {}}
+{"run_id": "20261125T104546Z", "timestamp": "2026-11-25T10:45:49.658244+00:00", "scholar": "Liangbing Hu", "status": "no_change", "changes": {}}
+{"run_id": "20261125T104546Z", "timestamp": "2026-11-25T10:45:50.952245+00:00", "scholar": "Todd R. Zenger", "status": "no_change", "changes": {}}
+{"run_id": "20261125T104546Z", "timestamp": "2026-11-25T10:45:51.912603+00:00", "scholar": "Jason S. Snyder", "status": "updated", "changes": {"note": "first_fetch"}}
+{"run_id": "20261125T104546Z", "timestamp": "2026-11-25T10:45:52.595000+00:00", "scholar": "Evan Rawley", "status": "no_change", "changes": {}}
+{"run_id": "20261125T104546Z", "timestamp": "2026-11-25T10:45:53.133596+00:00", "scholar": "Kristina McElheran", "status": "updated", "changes": {"new_coauthors": ["James Creece Davis", "Richard B. Freeman"]}}
+{"run_id": "20261125T104546Z", "timestamp": "2026-11-25T10:45:53.777988+00:00", "scholar": "Todd R. Zenger", "status": "updated", "changes": {"note": "first_fetch"}}
+{"run_id": "20261125T104546Z", "timestamp": "2026-11-25T10:45:46.935853+00:00", "scholar": "__summary__", "status": "summary", "changes": {"total_checked": 9, "updated": 3, "no_change": 6, "fetch_failed": 0}}

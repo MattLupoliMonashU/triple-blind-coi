@@ -305,3 +305,13 @@
 {"run_id": "20261126T101753Z", "timestamp": "2026-11-26T10:17:57.824655+00:00", "scholar": "Todd R. Zenger", "status": "no_change", "changes": {}}
 {"run_id": "20261126T101753Z", "timestamp": "2026-11-26T10:17:58.260383+00:00", "scholar": "Dennis Zhang", "status": "no_change", "changes": {}}
 {"run_id": "20261126T101753Z", "timestamp": "2026-11-26T10:17:53.929927+00:00", "scholar": "__summary__", "status": "summary", "changes": {"total_checked": 9, "updated": 3, "no_change": 6, "fetch_failed": 0}}
+{"run_id": "20261127T102356Z", "timestamp": "2026-11-27T10:23:56.130808+00:00", "scholar": "Todd R. Zenger", "status": "no_change", "changes": {}}
+{"run_id": "20261127T102356Z", "timestamp": "2026-11-27T10:23:57.195000+00:00", "scholar": "Jason S. Snyder", "status": "updated", "changes": {"note": "first_fetch"}}
+{"run_id": "20261127T102356Z", "timestamp": "2026-11-27T10:23:58.012344+00:00", "scholar": "Jason S. Snyder", "status": "no_change", "changes": {}}
+{"run_id": "20261127T102356Z", "timestamp": "2026-11-27T10:23:58.853201+00:00", "scholar": "Liangbing Hu", "status": "updated", "changes": {"new_coauthors": ["H. D. Drew"], "removed_coauthors": ["Howard Dennis Drew"]}}
+{"run_id": "20261127T102356Z", "timestamp": "2026-11-27T10:24:00.365269+00:00", "scholar": "Lamar Pierce", "status": "updated", "changes": {"new_coauthors": ["David Huffman"]}}
+{"run_id": "20261127T102356Z", "timestamp": "2026-11-27T10:24:01.407288+00:00", "scholar": "Evan Rawley", "status": "updated", "changes": {"new_coauthors": ["Yujin Kim", "Pian Shu", "Bo Cowgill", "Lee Fleming", "Prasanna B. Tambe"], "updated_coauthor_recency": [{"id": "https://openalex.org/A5088859379", "old_year": 2017, "new_year": 2019}, {"id": "https://openalex.org/A5020818722", "old_year": 2018, "new_year": 2025}]}}
+{"run_id": "20261127T102356Z", "timestamp": "2026-11-27T10:24:02.322888+00:00", "scholar": "Kristina McElheran", "status": "no_change", "changes": {}}
+{"run_id": "20261127T102356Z", "timestamp": "2026-11-27T10:24:03.131092+00:00", "scholar": "Dennis Zhang", "status": "updated", "changes": {"new_coauthors": ["Hannah K. Smalley"], "removed_coauthors": ["Hannah Smalley"]}}
+{"run_id": "20261127T102356Z", "timestamp": "2026-11-27T10:24:03.993475+00:00", "scholar": "Todd R. Zenger", "status": "updated", "changes": {"note": "first_fetch"}}
+{"run_id": "20261127T102356Z", "timestamp": "2026-11-27T10:23:56.129549+00:00", "scholar": "__summary__", "status": "summary", "changes": {"total_checked": 9, "updated": 6, "no_change": 3, "fetch_failed": 0}}
